@@ -1,0 +1,7 @@
+3)select Name from Tracks where TrackID=12 /*and AlbumId=(select AlbumId from Albums where Title="For Those About to Rock We Salute You");
+
+2)select count(Invoiceid),c.FirstName,c.LastName,c.City,c.Email from Invoices as i Inner Join Customers as c
+on i.CustomerId=c.CustomerId
+group by c.CustomerId
+
+1)select Name from Tracks where Albumid=(select Albumid from Albums where Title='Californication');
