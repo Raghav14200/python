@@ -16,7 +16,7 @@ s1=s.union(s_from_list)
 print(s1)
 
 #intersection
-s2=s.intersection(s_from_list)
+s2=s1.intersection(s_from_list)
 print(s2)
 
 s.remove(2)
