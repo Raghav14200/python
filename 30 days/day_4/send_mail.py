@@ -4,8 +4,8 @@ from email.mime.text import MIMEText
 
 #username and password of the senders email
 #use environment variables after learning it.
-email="1ms19is096@gmail.com"
-password="raghu@2001"
+email="dummy@gmail.com"
+password="password"
 
 def send(text='Email Body',subject="Hi", to=None):
     if(isinstance(to,list)):
